@@ -1,0 +1,19 @@
+{
+  "name": "@simplyeat/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasdesai0531/simply-eat-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejasdesai0531/simply-eat-common/issues"
+  },
+  "homepage": "https://github.com/tejasdesai0531/simply-eat-common#readme"
+}
