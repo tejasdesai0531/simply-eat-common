@@ -6,6 +6,9 @@ const BadRequestError = require('./errors/bad-request-error')
 const RequestValidationError = require('./errors/request-validation-error')
 const NotFoundError = require('./errors/not-found-error')
 
+const errorHandler = require('./middlewares/error-handler')
+const validateRequest = require('./middlewares/validateRequest')
+
 module.exports = {
     Listner,
     Publisher,
@@ -13,5 +16,8 @@ module.exports = {
     CustomError,
     BadRequestError,
     RequestValidationError,
-    NotFoundError
+    NotFoundError,
+
+    errorHandler,
+    validateRequest
 }
