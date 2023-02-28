@@ -2,7 +2,7 @@
   "name": "@simplyeat/common",
   "version": "1.0.5",
   "description": "",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "scripts": {
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm publish --access=public"
   },
