@@ -7,7 +7,7 @@ const RequestValidationError = require('./errors/request-validation-error')
 const NotFoundError = require('./errors/not-found-error')
 
 const errorHandler = require('./middlewares/error-handler')
-const validateRequest = require('./middlewares/validateRequest')
+const validateRequest = require('./middlewares/validate-request')
 
 module.exports = {
     Listner,
