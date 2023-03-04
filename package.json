@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tejasdesai0531/simply-eat-common/issues"
   },
-  "homepage": "https://github.com/tejasdesai0531/simply-eat-common#readme"
+  "homepage": "https://github.com/tejasdesai0531/simply-eat-common#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
 }
