@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 
-export const currentUser = (req, res, next) => {
+const currentUser = (req, res, next) => {
   if (!req.headers.token) {
     return next();
   }
@@ -15,3 +15,5 @@ export const currentUser = (req, res, next) => {
 
   next();
 };
+
+module.exports = currentUser

@@ -10,6 +10,8 @@ const NotAuthorizedError = require('./errors/not-authorized-error')
 
 const errorHandler = require('./middlewares/error-handler')
 const validateRequest = require('./middlewares/validate-request')
+const currentUser = require('./middlewares/current-user')
+const requireAuth = require('./middlewares/require-auth')
 
 module.exports = {
     Listner,
@@ -23,5 +25,7 @@ module.exports = {
     NotAuthorizedError,
 
     errorHandler,
-    validateRequest
+    validateRequest,
+    currentUser,
+    requireAuth
 }
