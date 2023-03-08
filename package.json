@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tejasdesai0531/simply-eat-common#readme",
   "dependencies": {
+    "express-validator": "^6.15.0",
     "jsonwebtoken": "^9.0.0"
   }
 }
