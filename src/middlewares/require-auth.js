@@ -1,4 +1,4 @@
-const NotAuthorizedError = require('@simply-eat/common')
+const NotAuthorizedError = require('../errors/not-authorized-error')
 
 const requireAuth = (req, res, next) => {
   if (!req.currentUser) {
